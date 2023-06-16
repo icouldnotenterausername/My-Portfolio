@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button: "DM Sans";
+  --big-title: "Space Mono";
+  --font-roboto: Roboto;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --button-size: 24px;
+  --quote-size: 40px;
+  --title-size: 48px;
+  --big-title-size: 78px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --body-bold-size: 32px;
+  --font-size-16xl-6: 35.6px;
+  --caption-size: 18px;
+  --huge-headline-size: 96px;
+  --font-size-xl: 20px;
+  --font-size-7xs: 6px;
+  --font-size-9xs: 4px;
+  --font-size-5xs: 8px;
+
+  /* Colors */
+  --black: #000;
+  --color-snow: #fcfafa;
+  --color-gainsboro-100: #e0e0e0;
+  --color-gainsboro-200: #d9d9d9;
+  --light: #fff;
+  --color-midnightblue-100: #2e0249;
+  --color-midnightblue-200: rgba(46, 2, 73, 0.3);
+  --color-whitesmoke: #eee;
+  --color-gray: #7b7e86;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-61xl: 80px;
+  --gap-21xl: 40px;
+  --gap-45xl: 64px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-61xl: 80px;
+  --padding-mini: 15px;
+  --padding-11xl: 30px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-101xl: 120px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-mid-8: 17.8px;
+  --br-5xs: 8px;
+  --br-base: 16px;
+  --br-5xl: 24px;
+}

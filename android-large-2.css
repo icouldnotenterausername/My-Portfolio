@@ -1,0 +1,236 @@
+.carbonmenu-icon1,
+.group-icon1 {
+  position: absolute;
+  top: 28px;
+  left: 45px;
+  width: 26.16px;
+  height: 56.86px;
+}
+.carbonmenu-icon1 {
+  left: 308px;
+  width: 32.06px;
+  height: 32.06px;
+  overflow: hidden;
+}
+.lets-discuss1 {
+  margin: 0;
+}
+.lets-discuss-on-container1 {
+  position: absolute;
+  top: 165px;
+  left: 53.17px;
+  font-size: var(--button-size);
+  line-height: 25px;
+  display: inline-block;
+  font-family: var(--big-title);
+  background: linear-gradient(-90deg, #81b3fe, #e0a6f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 282.53px;
+  height: 100.51px;
+  transform: rotate(0.1deg);
+  transform-origin: 0 0;
+}
+.im-interested-in2 {
+  position: absolute;
+  top: 290px;
+  left: 79px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gainsboro-200);
+  width: 223px;
+  height: 293px;
+}
+.android-large-2-child {
+  position: absolute;
+  top: 744.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 361px;
+  height: 1px;
+}
+.social-icon10,
+.social-icon11,
+.social-icon12,
+.social-icon13 {
+  position: absolute;
+  top: 759px;
+  left: 282px;
+  width: 10px;
+  height: 11px;
+}
+.social-icon11,
+.social-icon12,
+.social-icon13 {
+  left: 302px;
+}
+.social-icon12,
+.social-icon13 {
+  left: 321px;
+}
+.social-icon13 {
+  left: 341px;
+}
+.all-rights-reserved3 {
+  position: absolute;
+  top: 34.03%;
+  left: 0;
+  font-weight: 300;
+}
+.copyright3 {
+  position: absolute;
+  top: 787px;
+  left: 161px;
+  width: 53px;
+  height: 18px;
+  font-size: var(--font-size-9xs);
+}
+.icon6,
+.icon7 {
+  position: absolute;
+  top: 771px;
+  left: 24px;
+  width: 7px;
+  height: 6px;
+  overflow: hidden;
+}
+.icon7 {
+  top: 785px;
+  height: 7px;
+}
+.email-wrapper,
+.email6,
+.email7 {
+  position: absolute;
+  top: 0;
+  left: 0.67%;
+}
+.email-wrapper,
+.email6 {
+  left: 0;
+  width: 75.39px;
+  height: 8.05px;
+}
+.email-wrapper {
+  top: 769px;
+  left: 39.61px;
+}
+.div3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.phone-number-wrapper,
+.phone-number2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70.33px;
+  height: 8.05px;
+}
+.phone-number-wrapper {
+  top: 785px;
+  left: 40px;
+}
+.span1 {
+  background: linear-gradient(180deg, #81b3fe, rgba(224, 166, 244, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.your-name1 {
+  position: relative;
+  font-weight: 500;
+}
+.frame-child3 {
+  position: relative;
+  width: 194px;
+  height: 0;
+}
+.your-name-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-midnightblue-100);
+}
+.frame-child4 {
+  position: relative;
+  border-top: 3px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+  width: 197px;
+  height: 3px;
+}
+.your-email-group {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.line-icon {
+  position: relative;
+  width: 195.02px;
+  height: 4px;
+}
+.frame-13-input,
+.your-message-group {
+  width: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-13-input {
+  position: absolute;
+  top: 340px;
+  left: 88px;
+  gap: var(--gap-45xl);
+  font-size: var(--font-size-5xs);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-poppins);
+}
+.frame-21-button1 {
+  position: absolute;
+  top: 540px;
+  left: 88px;
+  border-radius: var(--br-base);
+  background: linear-gradient(180deg, #81b3fe, rgba(224, 166, 244, 0));
+  width: 107px;
+  height: 24px;
+}
+.send-message1 {
+  position: absolute;
+  top: 543px;
+  left: 126px;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-whitesmoke);
+  text-align: center;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 1.38%;
+  width: 3.61%;
+  top: 68.25%;
+  right: 68.61%;
+  bottom: 30.38%;
+  left: 27.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.android-large-2 {
+  position: relative;
+  background-color: var(--black);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-7xs);
+  color: var(--light);
+  font-family: var(--font-roboto);
+}

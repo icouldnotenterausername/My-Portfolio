@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact2">
+      <div class="email-group">
+        <div class="email2">
+          <div class="email3">support@figma.com</div>
+        </div>
+        <img class="icon2" alt="" src="./public/icon2.svg" />
+      </div>
+      <div class="icon-group">
+        <img class="icon2" alt="" src="./public/icon3.svg" />
+
+        <div class="phone-number">
+          <div class="div1">+1 800 854-36-80</div>
+        </div>
+      </div>
+      <div class="copyright1">
+        <div class="all-rights-reserved1">© 2023 All Rights Reserved</div>
+      </div>
+      <div class="contact-child"></div>
+      <div class="social-group">
+        <img class="social-icon2" alt="" src="./public/social2.svg" />
+
+        <img class="social-icon2" alt="" src="./public/social3.svg" />
+
+        <img class="social-icon2" alt="" src="./public/social4.svg" />
+
+        <img class="social-icon2" alt="" src="./public/social5.svg" />
+      </div>
+      <b class="lets-discuss-on-container">
+        <p class="lets-discuss">Let’s discuss</p>
+        <p class="lets-discuss">on something cool</p>
+        <p class="lets-discuss">together</p>
+      </b>
+      <div class="im-interested-in" data-scroll-to="imInterestedIn"></div>
+      <div class="frame-22-input">
+        <div></div>
+        <div class="frame-parent1">
+          <div class="your-name-parent">
+            <div class="your-name">
+              <span>Your name</span>
+              <span class="span">|</span>
+            </div>
+            <div class="line-div"></div>
+          </div>
+          <div class="your-email-parent">
+            <div class="your-name">Your email</div>
+            <div class="frame-child1"></div>
+          </div>
+          <div class="your-email-parent">
+            <div class="your-name">Your message</div>
+            <div class="frame-child1"></div>
+          </div>
+        </div>
+      </div>
+      <b class="im-interested-in1">I’m interested in...</b>
+      <div class="frame-21-button">
+        <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+        <div class="your-name">Send Message</div>
+      </div>
+      <div class="frame-parent2">
+        <div class="frame-parent3">
+          <div class="photography-wrapper">
+            <div class="project-management">Photography</div>
+          </div>
+          <div class="videography-wrapper">
+            <div class="project-management">Videography</div>
+          </div>
+          <div class="videography-wrapper">
+            <div class="project-management">project management</div>
+          </div>
+        </div>
+        <div class="frame-parent4">
+          <div class="ux-design-wrapper">
+            <div class="ux-design">
+              <p class="lets-discuss">UX Design</p>
+            </div>
+          </div>
+          <div class="other-wrapper">
+            <div class="your-name">Other</div>
+          </div>
+        </div>
+      </div>
+      <b class="portfolio1" data-scroll-to="portfolioText" id="portfolioText"
+        >Portfolio</b
+      >
+      <b class="contact3" id="contactText">
+        <p class="lets-discuss">Contact</p>
+      </b>
+      <img
+        class="logo-shapes-30"
+        alt=""
+        src="./public/logo-shapes-30.svg"
+        id="logoShapes30"
+      />
+
+      <b class="about-me2">
+        <p class="lets-discuss">About me</p>
+      </b>
+    </div>
+
+    <script>
+      var portfolioText = document.getElementById("portfolioText");
+      if (portfolioText) {
+        portfolioText.addEventListener("click", function (e) {
+          window.location.href = "F$1:391$";
+        });
+      }
+      
+      var contactText = document.getElementById("contactText");
+      if (contactText) {
+        contactText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='imInterestedIn']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var logoShapes30 = document.getElementById("logoShapes30");
+      if (logoShapes30) {
+        logoShapes30.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='portfolioText']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
